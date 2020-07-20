@@ -1,0 +1,44 @@
+Se não existe o repositorio local, comece com:
+
+git init
+ou
+git clone <url>
+
+Se existe, faça atualizacao com o remoto com:
+git fetch
+
+e depois
+git pull
+
+Comandos mais usados:
+
+Ver situação do repositório corrente:
+git status
+
+Adicionar alterações 
+git add <nome do arquivo>
+
+ou para adicionar tudo
+git add .
+
+Para confirmar a operação:
+git commit -m "E a mensagem descritiva"
+
+Veja a ultima confirmação com 
+
+git show
+
+Veja logs com
+git log
+
+versão resumida, só commit e mensagem:
+git log --oneline
+
+Para mandar para o remoto, faça:
+git push
+
+
+
+
+
+
