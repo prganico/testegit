@@ -37,6 +37,15 @@ git log --oneline
 Para mandar para o remoto, faça:
 git push
 
+Quando vc fizer push e receber o aviso "error: failed to push some refs to 'https://github.com/prganico/testegit.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally."
+Vc precisa atualizar o seu repositório local antes de fazer o push (mandar para o repositório remoto)
+Exemplo: 
+git pull
+será apresentado editor de texto para informar a mensagem do commit com o padrão " Merge branch 'master' of https://github.com/prganico/testegit"
+Edite se achar necessário, depois salve e feche.
+Será feito o commit do merge automaticamente. Após isso, vc pode tentar fazer o push novamente.
 
 
 
